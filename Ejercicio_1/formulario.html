@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascrips" src=".javascrips.js"></script>
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <p id="p1"> Hola </p>
+    <p  id="p2"></p>
+
+    <input type="text" placeholder="Escribe tu nombre" id="imputName">
+
+    <div id="type">
+        <input type="radio" id="r1" name="typeSelect" value="estudiante" checked > estudiante
+        <input type="radio" name="typeSelect" id="r2" value="maestro"> maestro
+        <input type="radio" name="typeSelect" id="r3" value="maestro"> maestro
+        <input type="radio" name="typeSelect" id="r4" value="maestro"> maestro
+    </div>
+    <button type="button" onclick="displayUserDataInscreen(document.getElementById(inputName).value)">Ejecutar</button>
+
+  </body> 
+</html>

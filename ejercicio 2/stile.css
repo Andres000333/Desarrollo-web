@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.content {
+
+    height: 100%;
+    
+    background-image: url("./assets/background.jpg");
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    }
+    
+    content-center {
+    
+    color: white;
+    
+    background-color: black;
+    
+    padding: 20px;
+    
+    text-align: center;
+    
+    }
+    
+    .center {
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    }
