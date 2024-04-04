@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="./Lista.css">
     <meta charset="utf-8" />
     <title>Index</title>
+
+    <script src= "./functions.js" type="application/javascript"></script>
   </head>
 
   <body>
@@ -15,10 +17,21 @@
             <hr>
             <input type="text" id="Name" placeholder="Escribe tu nombre">
             <input type="number" id="age" placeholder="Cual es tu edad">
-            <input type="text" id="Gmail" placeholder="Digita tu correo electronico">
-            <button class="btn">Agregar</button>
+            <br>
+            <button class="btn btn-accept" onclick="agregarmiembros()" >Agregar</button>
+            <hr>
+            <div>
+              <div class="center-1 ">
+                <h3 class="mb-2">Integrantes</h3>
+                <small>Lista de integrantes</small>
+                <ol>
+                  <div id="list"></div>
+                </ol>
+              </div>
+            </div>
+            <br>
 
-        </div></div class="content-center "><div>
+        </div>
     </div>
   </body> 
 </html>
